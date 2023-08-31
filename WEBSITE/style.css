@@ -1,0 +1,209 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+  }
+  
+ 
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  #result {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+  }
+  
+  #result.true {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  #result.false {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .danger{
+    background: red;
+    color:white;
+  }
+
+  .good
+  {
+    background: #4CAF50;
+  }
+
+  .average{
+    background: yellow;
+  }
+
+  .medium{
+    background: orange;
+  }
+
+  .hero-text{
+    font-family: 'Chakra Petch', sans-serif;  
+  color: #02e3ed;
+    text-shadow: 3px 5px 5px black;
+    font-size: 2.4rem;
+    letter-spacing:2px;
+    margin-top: 5rem;
+}
+
+
+    body{
+      background: #273232;
+      font-size: 1rem;
+    }
+
+
+    hr{
+      border:1px solid rgba(0, 255, 255, 0.914);
+      width:79%;
+    }
+    
+    .desc{
+      color:white;
+      font-family: 'Oswald', sans-serif;
+    width:87%;
+  margin:0 auto;
+line-height: 19px;
+text-align:center ;
+letter-spacing:1px;    }
+
+.ask_link{
+  text-align: center;
+  margin-top: 3rem;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 800;
+  color:white;
+}
+
+
+#url{
+  background-color: rgb(85, 85, 85);
+  border:1px solid cyan;
+  width: 50%;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.918);
+  text-align: center;
+  font-family: monospace;
+  margin: 20px 0;
+  font-weight: 700;
+}
+
+
+#url::placeholder {
+  opacity: .2;
+}
+section{  gap:5rem;
+
+}
+
+/*result box css goes here */
+
+#result{
+  padding: 4px 10px ;
+  width:15%;
+  margin:0 auto;
+}
+
+
+#url{
+  display: inline;
+}
+
+.buttons{
+  display: flex;
+  gap:6rem;
+}
+
+.scan{
+  background-color: #2d9095;
+  color:white;
+  padding: 7px 21px;
+  outline: none;
+  width:7rem;
+  border: none;
+  border-radius: 3px;
+}
+.clear{
+  background-color: #2e4f4f;
+  color:white;
+  padding: 7px 18px;
+  outline: none;
+  border: none;
+  width:6.1rem;
+
+  border-radius: 4px;
+}
+
+input:focus
+{
+  outline: none;
+outline-color: red;}
+
+
+button{
+  box-shadow: 1px 1px 13px rgba(0, 0, 0, 0.532);
+}
+
+@media screen and (min-width:1169px) 
+{
+
+
+  .hero-text{
+    font-size: 3rem;
+  }
+
+  .desc{
+    font-size: 1.3rem;
+    line-height:22px;
+  };
+
+
+}
+
+
+
+@media  screen and (max-width:769px) {
+  
+  section{
+    width:80%;
+    margin:0 auto;
+  }
+  h1{
+    margin-bottom: 2.3rem;
+  }
+}

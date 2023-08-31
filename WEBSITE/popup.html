@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Link Spotter</title>
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="container">
+
+      <h1 class="hero-text">Link Spotter</h1>
+      <p class="desc">
+Web Based Phishing link identifier  - A Machine Learning Approach      </p>
+      <hr>
+        <h3  class="ask_link">Drop The Web Page's Link :</h3>
+        <form>  
+          <input type="text" autocomplete=off  id="url" name="url" required  placeholder="https://www.facebook.com"/> 
+         <div class="buttons">
+          <section>
+            
+            <button  type="submit" class="scan">Scan</button>
+       </section>
+
+        </form>
+        <section><button class="clear" id="clear" type="button">Clear</button> </section>
+      </div>
+      
+      <section class="result_sec">
+        <p id="result"></p>
+      </section>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
