@@ -1,6 +1,6 @@
 # Phishing Link Identifier using AI/ML
 
-Phishing Link Identifier using AI/ML is a comprehensive solution aimed at identifying potentially malicious URLs and links using Artificial Intelligence and Machine Learning techniques. This project encompasses a website, a Chrome extension, and a WhatsApp bot, all working together to provide users with a seamless experience in verifying the legitimacy of URLs. This README file offers an overview of the project, its components, setup instructions, and usage guidelines.
+Phishing Link Identifier using AI/ML is a comprehensive solution aimed at identifying potentially malicious URLs and links using Artificial Intelligence and Machine Learning techniques. This project encompasses a website, a Chrome extension, and a WhatsApp bot, all working together to provide users with a seamless experience in verifying the legitimacy of URLs. This README file offers an overview of the project, its components, setup instructions, and usages.
 
 ![Phishing Link Identifier](https://github.com/BarathkumarJK/Phishing-link-Indetifier-using-AI-ML/blob/main/images/phishing_identifier.jpg)
 
